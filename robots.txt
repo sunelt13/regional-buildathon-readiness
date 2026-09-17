@@ -1,0 +1,5 @@
+# Requests that compliant crawlers do not crawl this host.
+# This file is not authentication and cannot prevent scraping.
+# It must be served at the origin root: https://HOST/robots.txt.
+User-agent: *
+Disallow: /
